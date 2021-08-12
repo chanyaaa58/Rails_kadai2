@@ -1,5 +1,5 @@
-<%= form_with(model: Post.new, local: true) do |form| %>
-    <div class="_title">
+<%= form_with(model: @post, local: true) do |form| %>
+    <div class="blog_title">
       <%= form.label :title %>
       <%= form.text_field :title %>
     </div>
@@ -7,5 +7,5 @@
       <%= form.label :content %>
       <%= form.text_field :content %>
     </div>
-    <%= form.submit %>
+    <%= form.submit "Create Blog" %>
   <% end %>
