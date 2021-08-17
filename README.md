@@ -24,3 +24,4 @@ Things you may want to cover:
 * ...
 
 Git flow勉強の為の記載
+Git flow勉強の為の記載2
